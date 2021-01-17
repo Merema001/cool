@@ -69,8 +69,7 @@ pipeline {
 					terraform output kubeconfig > $HOME/.kube/config
 				"""
 				sh 'sudo chown $(id -u):$(id -g) $HOME/.kube/config'
-				sleep 30
-				sh 'kubectl get nodes'
+
 				}
 			
         }
