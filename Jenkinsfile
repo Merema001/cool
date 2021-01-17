@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('checkout') {
         steps {
-            git 'https://github.com/shafiwebsphere/iac-demo.git'
+            git 'https://github.com/Merema001/unzer.git'
         }
     }
 	stage('Setup') {
